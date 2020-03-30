@@ -9,8 +9,8 @@ public class Opgave3011 {
     // opgave 32 11
 
     static Integer n = 10; // set num of threads
-    static Lock locka = new ReentrantLock();
-    static Lock lockb = new ReentrantLock();
+    static final Lock locka = new ReentrantLock();
+    static final Lock lockb = new ReentrantLock();
 
     public static void main(String[] args) {
 
